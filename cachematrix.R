@@ -4,7 +4,7 @@
 ## implements a new version of matrix with cacheable inverse and the second is the function to call
 ## when we want the inverse of the array.
 
-## Returns a special `matrix` with the in
+## Returns a special `matrix` that holds a reference to its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
   # initialize inverse to NULL
